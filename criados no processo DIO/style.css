@@ -1,0 +1,69 @@
+
+body {
+  background:rgb(39, 4, 73);
+  font-family:Verdana, Tahoma, sans-serif;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+    text-align: center;
+    border:  10px solid rgb(20, 0, 41);
+    border-radius: 50px;
+  }
+
+  header{
+color: aqua;
+  }
+
+  #title {
+    font-style: oblique;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: blueviolet;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  article {
+    background: rgba(235, 177, 253, 0.411);
+    padding: 15px ;
+    border: 1px dashed rgba(227, 161, 255, 0.507);
+    
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+  }
+
+  .post {
+  padding-left: 80px ;
+  width: 80%;
+  } 
+  .post_content{
+    margin: 0;
+    margin: bottom 15px; 
+    text-transform: capitalize;
+    color: aquamarine;
+  }
+
+  .subpost{
+    color: aqua;
+    text-align:center;
+  }
+  a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: aquamarine;
+  }
+
+  .listadecontatos {
+    list-style-type:circle; color: antiquewhite;
+    padding-left: 100px;
+
+  }
+
+  

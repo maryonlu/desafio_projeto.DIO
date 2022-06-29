@@ -1,3 +1,7 @@
+
+Java Script>>>>
+
+
 função ao lado que recebe como parâmetros uma string e uma letra e deve retornar a quantidade de ocorrências da letra passada na string passada.
 
 Exemplo: se for passado “carreira” e a letra “r”, a função deve retornar 3

@@ -1,4 +1,4 @@
--------js   ;   história---------
+----------------------------------------------  j.s  história ----------------------------------------------
 
 -INTERPRETADA; compilação em tempo real
 
@@ -104,17 +104,17 @@ Estrutura dos elementos dentro da janela;
 	  		|
 janela	:   |localização
 			|       
-			|            | h1				 :	| text node
-			|		     |						|------------------------
-			|document:   |paragrafo (<p>)    :  | text node
+			|                   | h1	                    	          :                   | text node
+			|	           |				             		|------------------------
+			|document:   |paragrafo (<p>)     		:	          | text node
 						 |						|------------------------
 	   					 |						|    					 |input[type.text]
 						 |						| form			:		 |input[type.submit]
-						 |						|						 |
+						 |						|						 
 						 |						|------------------------------------------------
 						 |						| ancora(<a>)	:		 |text node				
-						 |						| h2            :        |text node					
-	   					 |ancora (<a>)       :  | text node				
+						 |						| h2           		: 	           |text node					
+	   					 |ancora (<a>) 	          :                 | text node				
 
 
 ----------------------------------------------------------------------------------------------------
@@ -127,13 +127,13 @@ document.getElementsByTagName ('h2')
         >>'manipulando arquivo html usando js no console do browser'
 
 criar a var ("headng1")   com o valor(= document.getElementsByTagName ('h2') [0]
-																			 [0] para avisar qual linha especifica do h2 vc quer no valor dessa var
+								                                         [0] para avisar qual linha especifica do h2 vc quer no valor dessa var
 
 				para mexer no css mudando a cor da fonte;
 				o q vc quer mexer, nesse caso;
 			   |heading1.style.color = 'blue'
 			   |
-               |_heading1 ; essa var que criamos
+               		   |_heading1 ; essa var que criamos
 			   |_style    ; avisa que estamos mexendo no css da pagina
 			   |_color    ; cor que vc quer colocar na var q no caso é o h2 
 

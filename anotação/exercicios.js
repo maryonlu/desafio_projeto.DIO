@@ -1,5 +1,0 @@
-exercicios
-
-function idade (ano) {
-
-}

@@ -1,1 +1,20 @@
 o git bash é um terminal extendido para otimizar o uso do git
+
+
+mapa-do-bem ;)
+
+	git status
+	|
+	|- para saber o que não esta "comitado" ainda
+
+	git add .
+	|
+	|- para adicionar o que não fooi comitado para a ser ommitado
+
+	git commit - m "..."
+	|
+	|- para commitar com um cometario entra as aspas que represente seu commit
+
+	git push origin main
+	|
+	|- para subir seus commit ao github
