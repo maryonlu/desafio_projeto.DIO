@@ -1,0 +1,52 @@
+função ao lado que recebe como parâmetros uma string e uma letra e deve retornar a quantidade de ocorrências da letra passada na string passada.
+
+Exemplo: se for passado “carreira” e a letra “r”, a função deve retornar 3
+
+Exemplo: se for passado “ovo” e a letra “s”, a função deve retornar 0
+
+function contaLetras(string, letra) {
+		// Escreva aqui seu código
+	let quantidade = 0;
+	
+
+	/// for                 => loop 
+	///let                  => variavel (contador) para armazenar quantas vezes vai rodar o loop
+	//contador         precisa ser < ('"100" quantidadede de vezes ) nesse caso: string.length
+	///string.length   => quantidade de letras vai ser o tanto de vez que o loop vai rodar 
+	/// ++                  =>a cada loop somamor 1 ao contador, assim sabemos quando der a quantidade de vezes que tem que rodar.
+	/// ===                => 
+	for (let contador = 0 ;  contador <string.length;contador++) {
+	 if (string[contador] === letra) {
+		 quantidade ++;
+	 }
+	}
+	return quantidade;
+
+}
+
+função ao lado que recebe uma string como parâmetro e retorna a string original, mas com o número 1 no lugar das vogais
+
+Exemplo: se for passada a palavra “uva”, a função deve retornar “1v1”
+
+Dica: para realizar essa questão você vai precisar de uma ferramenta nova. Talvez seja útil construir um array vazio. Você pode fazer isso com o seguinte comando:
+
+const arr=[] //constrói um array vazio chamado "arr"
+Depois disso, você, talvez, queira encher esse novo array com elementos. Você pode fazer isso escrevendo ".push" logo após o nome do array. Então, para inserir "3" no array que acabamos de criar fazemos:
+
+arr.push(3) //Insere 3 dentro do array "arr
+
+function trocaVogais(string) {
+  let novaString = "";
+
+  for (let i = 0; i < string.length; i++) {
+    let caractere = string[i];
+    
+    if (caractere === "a" || caractere === "e" || caractere === "i" || caractere === "o" || caractere === "u") {
+      novaString += "1";
+    } else {
+      novaString += caractere;
+    }
+  }
+
+  return novaString;
+}

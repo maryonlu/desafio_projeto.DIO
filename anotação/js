@@ -1,0 +1,94 @@
+function aulona (resumo_de_td_que_eu_aprendi){
+  let txt = "stringuizinha do bem :)";
+  return txt + aulona;
+  /// resultado ; stringuizinha do bem :) resumo de td que eu aprendi///
+
+}
+
+
+function cauculamedia (nota1, nonta2, nota3){
+
+    let media = ( (nota1 * 3) + (nonta2 * 3) + (nota3 * 4) ) / 3
+
+    let resultado = "sua média foi: " + media ;
+
+return resultado ;
+
+}
+
+cauculamedia (5,6,7);
+
+function contaLetras(string, letra) {
+    // Escreva aqui seu código
+let quantidade = 0;
+
+
+/// for                 => loop 
+///let                  => variavel (contador) para armazenar quantas vezes vai rodar o loop
+//contador                 precisa ser < ('"100" quantidadede de vezes ) nesse caso: string.length
+///string.length        => quantidade de letras vai ser o tanto de vez que o loop vai rodar 
+/// ++                  => a cada loop somar 1 ao contador, assim sabemos quando der a quantidade de vezes que tem que rodar.
+/// ===                 => 
+for (let contador = 0 ;  contador <string.length;contador++) {
+ if (string[contador] === letra) {
+     quantidade ++;
+ }
+}
+return quantidade;
+
+}
+
+////////////aula5- condicionais : if e else
+
+function condicional (idade) {
+    // Escreva aqui seu código
+    // condições => se algo acontecer faça isso, se não (else) se ñ, rode aoutro algo
+    if (idade > 17) {
+      return "Maior de idade";
+    } else {
+      return "Menor de idade";
+    }
+  }
+
+/// 3 condicionais na mesma funçaõ:
+
+  function situacao(nota) {
+    // Escreva aqui seu código
+    if (nota>=7){
+      return "Aprovado";
+    }else if (nota >=5 ) {
+      return "Prova Final";
+    } else {
+      return "Reprovado"
+    }
+    }
+
+    function reprovadoaprovado(nota1, nota2, nota3) {
+      
+        // Escreva aqui seu código
+        let media = ((nota1 * 3) + (nota2 * 3) + (nota3 *4)) / 10;
+      
+        if (media < 5){
+          return "reprovado";
+        } else if (media < 7 ) {
+        return "provafinal"
+        } else {
+         return "aprovado";
+      }
+      
+
+      //////////////valores de comparação
+      /// adicionar valores booleanos => true e false;
+      
+      function aprovadoreprovado (nota1, nota2, nonta3) {
+          let media = ((nota1 * 3) + (nota2 * 3) + (nota3 * 4)) / 10;
+
+      let reprovado= (media < 7) ; // primeiro a gente vê se a pessoa esta aprovada ou ñ
+      if (reprovado){
+                                  //depois caso ela esteja reprovada a gnt faz algm coisa
+      return "algm coisa.... burroooo da zero p elee"}
+    }
+    }
+
+    //////lembrete S2 
+    //////else if    mais condição no meio de condições
