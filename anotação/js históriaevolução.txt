@@ -1,0 +1,141 @@
+-------js   ;   história---------
+
+-INTERPRETADA; compilação em tempo real
+
+	browser rodadando em tempo real
+	ñ precisa compilar.diferente do c++que
+	precisa do compilador para passar para
+	uma linguagem que seu computador interprete 
+
+
+
+-PROTÓTIPOS; BASE PARA AS ESTRUTURAS DE DADOS
+
+	conjunto de funções e possibilidades para em 
+	comum em todas essas estruturas de dados
+
+
+
+-MULTIPARADIGMA; 
+
+	pode escolher entre trabalhar com;
+	orientação objs
+	programação funcional
+	programão estruturada
+
+
+
+-MAIOR ULTILIZAÇÃO EM WEB CLIENT-SIDE;
+
+parte da programação que intejage com o user
+interpretada pelo browser
+
+
+-PADRÃO "ECMAScript";
+
+	padrão para linguagens
+	conjuntos de normas que vai dizer quais 
+	funcionalidades oficialmente estão 
+	sendo lançada naquela linguagem.
+	
+	evolução 2015
+
+
+-APLICAÇÕES
+	WEB
+	mobile
+	smartwatches
+	games
+	internet of things
+	APis
+
+
+
+----manipulando arquivo----
+
+	comentar vária linhas
+	/* e só vai oarar de ser comentado td 
+	que tiver escrito quando vc fechar o comentario assim */
+	
+	selecionar o q vc quer comentar segurando 
+	o control + barra (/) 
+
+diferença;
+		variavéis 	/	cosntante
+ pode mudar o valor	/	ñ muda o valor
+        
+
+
+
+
+----função-----
+
+function soma (num1, num2) {
+	return num1+num2;
+
+/////o return vc usa qnd 
+precisa manipular o valor dnv dpsem outra função
+       
+	console.log (num1 + num2);
+//////console.log usa qnd vc só quer verificar 
+o resultado da equação
+}
+
+
+//////declarar a função com um valor 
+por exemplo;
+soma (num1 + num2);
+
+
+-----------------console-----------------
+web                 ou     terminal
+ferramenta                 terminal do vs code
+do desenvolvedor           ou terminal do próprio
+no browser                 computador
+
+nova aula
+-------------------------------------------DOM-------------------------------------------------
+Document object Model
+elementos q tem na pagina
+
+Estrutura dos elementos dentro da janela;
+
+	  		|hitórico	    
+	  		|
+janela	:   |localização
+			|       
+			|            | h1				 :	| text node
+			|		     |						|------------------------
+			|document:   |paragrafo (<p>)    :  | text node
+						 |						|------------------------
+	   					 |						|    					 |input[type.text]
+						 |						| form			:		 |input[type.submit]
+						 |						|						 |
+						 |						|------------------------------------------------
+						 |						| ancora(<a>)	:		 |text node				
+						 |						| h2            :        |text node					
+	   					 |ancora (<a>)       :  | text node				
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------<h2>manipulando arquivo html usando js no console do browser</h2>-------------------
+
+document.getElementsByTagName ('h1')
+        >>'my daddy's got a gum, you better rum'
+document.getElementsByTagName ('h2')
+        >>'manipulando arquivo html usando js no console do browser'
+
+criar a var ("headng1")   com o valor(= document.getElementsByTagName ('h2') [0]
+																			 [0] para avisar qual linha especifica do h2 vc quer no valor dessa var
+
+				para mexer no css mudando a cor da fonte;
+				o q vc quer mexer, nesse caso;
+			   |heading1.style.color = 'blue'
+			   |
+               |_heading1 ; essa var que criamos
+			   |_style    ; avisa que estamos mexendo no css da pagina
+			   |_color    ; cor que vc quer colocar na var q no caso é o h2 
+
+
+ 
